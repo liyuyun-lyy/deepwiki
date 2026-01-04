@@ -10,8 +10,12 @@
 3. [Output/result]
 
 ## Inputs and Outputs
-- Inputs: [files, requests, messages]
-- Outputs: [artifacts, responses, side effects]
+Inputs/outputs are summarized in the table below.
+
+| Type | Name | Location | Description |
+| --- | --- | --- | --- |
+| Input | [input name] | [file/CLI/env] | [purpose] |
+| Output | [output name] | [file/dir/API] | [purpose] |
 
 ## Data Structures
 - [Key payloads or artifacts, with fields]

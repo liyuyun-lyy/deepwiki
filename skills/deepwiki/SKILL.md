@@ -9,14 +9,15 @@ Create a Markdown-based deepwiki for a code repository. Always write files under
 
 ## Language selection
 
-Before generating any deepwiki content, ask the user to choose the output language
-as a multiple-choice prompt:
+On first-time generation (no existing `deepwiki/` directory), ask the user to
+choose the output language as a multiple-choice prompt:
 
 A) English
 B) Chinese
 C) Other (please specify)
 
-If the user does not specify a language, default to English and note it explicitly.
+On updates when `deepwiki/` already exists, do not ask again; keep the existing
+language and proceed. If the language is unclear, infer it from existing pages.
 
 ## Commands and intent
 
@@ -28,6 +29,7 @@ Always ensure these exist:
 
 - `deepwiki/INDEX.md` - landing page summary and entry links.
 - `deepwiki/assets/` - local images and rendered diagram assets.
+- `deepwiki/GENERATION.md` - generation metadata for incremental updates.
 
 Recommended pages (create as needed):
 
@@ -78,8 +80,10 @@ Examples:
 ## Workflow
 
 0) Confirm output language:
-   - Present choices: A) English, B) Chinese, C) Other (please specify).
-   - If not specified, default to English and proceed.
+   - If this is the first generation, present choices: A) English, B) Chinese,
+     C) Other (please specify).
+   - If `deepwiki/` already exists, do not ask; preserve its language.
+   - If not specified on first run, default to English and proceed.
 
 1) Scan the repo:
    - Identify primary languages, entry points, build tools, and key directories.
@@ -208,3 +212,26 @@ Use this structure for `deepwiki/INDEX.md`:
 - Keep links relative to `deepwiki/`.
 - Avoid deleting user-added sections; append with "Update" subsections if unsure.
 - Prefer stable filenames; only add new module pages when a new module is discovered.
+
+## Generation metadata
+
+Always write or update `deepwiki/GENERATION.md` with the latest commit reference
+to support incremental runs. Include at minimum:
+
+- Commit hash
+- Branch name (if available)
+- Generation timestamp (local)
+
+Link to `GENERATION.md` from `deepwiki/INDEX.md` under a short section such as
+"Generation Metadata".
+## Inputs/Outputs formatting
+
+When a page has an "Inputs and Outputs" section, use a single table format and
+avoid redundant bullet summaries. Add a one-line intro above the table if needed.
+
+## Redundancy avoidance
+
+Avoid repeating the same information in both bullets and tables. If a table
+exists for a section (parameters, interfaces, config, inputs/outputs), prefer
+the table and remove overlapping bullet lists. Use a short introductory sentence
+only if necessary to frame the table.

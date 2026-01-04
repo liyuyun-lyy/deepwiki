@@ -10,7 +10,12 @@
 - [Exports, CLI commands, or API endpoints]
 
 ## Inputs and Outputs
-- [Parameters, artifacts, or files]
+Inputs/outputs are summarized in the table below.
+
+| Type | Name | Location | Description |
+| --- | --- | --- | --- |
+| Input | [input name] | [file/CLI/env] | [purpose] |
+| Output | [output name] | [file/dir/API] | [purpose] |
 
 ## Configuration
 - [Env vars or config files]
