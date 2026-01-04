@@ -1,0 +1,17 @@
+{
+  "name": "deepwiki-kit",
+  "owner": {
+    "name": "liyuyun-lyy"
+  },
+  "metadata": {
+    "description": "Marketplace for the deepwiki skill plugin.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "deepwiki-kit",
+      "source": ".",
+      "description": "Deepwiki documentation generator skill for Claude Code."
+    }
+  ]
+}
