@@ -2,6 +2,10 @@
 
 Deepwiki skill and specification kit for generating repository documentation via Codex CLI.
 
+## License
+
+MIT. See `LICENSE`.
+
 ## What this repo contains
 
 - `skills/deepwiki/`: The deepwiki skill definition, templates, and examples.
