@@ -4,14 +4,31 @@
     "name": "liyuyun-lyy"
   },
   "metadata": {
-    "description": "Marketplace for the deepwiki skill plugin.",
+    "description": "Marketplace for the Deepwiki documentation generator skill.",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "deepwiki",
-      "source": ".",
-      "description": "Deepwiki documentation generator skill for Claude Code."
+      "description": "Generate or update deepwiki documentation for a repository.",
+      "version": "0.1.0",
+      "author": {
+        "name": "liyuyun-lyy"
+      },
+      "source": {
+        "source": "github",
+        "repo": "liyuyun-lyy/deepwiki"
+      },
+      "category": "documentation",
+      "tags": [
+        "deepwiki",
+        "documentation",
+        "repository",
+        "knowledge base"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/liyuyun-lyy/deepwiki",
+      "repository": "https://github.com/liyuyun-lyy/deepwiki.git"
     }
   ]
 }
