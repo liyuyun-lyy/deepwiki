@@ -7,6 +7,17 @@ description: Generate or update a repository understanding deepwiki as Markdown,
 
 Create a Markdown-based deepwiki for a code repository. Always write files under `deepwiki/`.
 
+## Language selection
+
+Before generating any deepwiki content, ask the user to choose the output language
+as a multiple-choice prompt:
+
+A) English
+B) Chinese
+C) Other (please specify)
+
+If the user does not specify a language, default to English and note it explicitly.
+
 ## Commands and intent
 
 - `/deepwiki` or "generate deepwiki": run the full flow; the model detects whether this is the first run or an update and proceeds accordingly.
@@ -65,6 +76,10 @@ Examples:
 - `examples/glossary-example.md`
 
 ## Workflow
+
+0) Confirm output language:
+   - Present choices: A) English, B) Chinese, C) Other (please specify).
+   - If not specified, default to English and proceed.
 
 1) Scan the repo:
    - Identify primary languages, entry points, build tools, and key directories.
