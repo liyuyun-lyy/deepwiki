@@ -10,6 +10,13 @@
 ## Key Flows
 - Index build: scan repo -> write INDEX/TOC.
 
+## Diagrams
+```mermaid
+flowchart LR
+  Repo[Repository] --> Scan[Scan Sources]
+  Scan --> Pages[Generate Pages]
+```
+
 ## Interfaces and Contracts
 - Markdown output in `deepwiki/` with fixed filenames.
 

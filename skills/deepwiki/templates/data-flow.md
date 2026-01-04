@@ -12,6 +12,11 @@
 - Inputs: [files, requests, messages]
 - Outputs: [artifacts, responses, side effects]
 
+## Diagrams
+- Include local images for key flows.
+- Use relative paths under `assets/` with meaningful alt text.
+- Preserve mermaid blocks directly in Markdown when diagrams are authored in mermaid.
+
 ## State and Storage
 - [Datastores, caches, files]
 

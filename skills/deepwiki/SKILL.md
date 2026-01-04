@@ -20,6 +20,7 @@ Always ensure these exist:
 
 - `deepwiki/INDEX.md` - landing page summary and entry links.
 - `deepwiki/TOC.md` - hierarchical table of contents.
+- `deepwiki/assets/` - local images and rendered diagram assets.
 
 Recommended pages (create as needed):
 
@@ -29,6 +30,18 @@ Recommended pages (create as needed):
 - `deepwiki/dependencies.md`
 - `deepwiki/data-flow.md`
 - `deepwiki/glossary.md`
+
+## Image and diagram support
+
+- Render local images inline using project-relative paths and keep them under
+  `deepwiki/assets/` in the generated output.
+- Preserve mermaid diagram blocks in Markdown so compatible renderers can
+  render them inline.
+- Use deterministic filenames for copied local images (consistent for the same
+  source page and reference order).
+- Preserve alt text or captions from the source content.
+- If an image or diagram cannot be resolved, emit a missing-asset note that
+  includes the source page and the referenced path.
 
 ## Templates and examples
 
@@ -68,7 +81,12 @@ Examples:
    - For `/deepwiki:init`, create the recommended pages with placeholders.
    - For `/deepwiki:update`, preserve existing headings and add deltas.
 
-4) Regenerate index and toc:
+4) Render images and diagrams:
+   - Copy local images referenced by content into `deepwiki/assets/`.
+   - Preserve mermaid diagram blocks in Markdown.
+   - Insert image references inline with alt text.
+
+5) Regenerate index and toc:
    - `INDEX.md` should summarize the repo and link to all core pages.
    - `TOC.md` should list all deepwiki pages in a logical hierarchy.
 

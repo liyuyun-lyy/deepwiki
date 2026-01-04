@@ -10,6 +10,11 @@
 ## Key Flows
 - [Critical request or job paths]
 
+## Diagrams
+- Include local images for architecture and flow diagrams.
+- Use relative paths under `assets/` with meaningful alt text.
+- Preserve mermaid blocks directly in Markdown when diagrams are authored in mermaid.
+
 ## Interfaces and Contracts
 - [APIs, RPCs, message contracts, schemas]
 

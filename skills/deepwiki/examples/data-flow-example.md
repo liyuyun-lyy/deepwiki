@@ -12,6 +12,15 @@
 - Inputs: repo files, config.
 - Outputs: markdown pages under `deepwiki/`.
 
+## Diagrams
+```mermaid
+sequenceDiagram
+  participant Repo
+  participant Generator
+  Repo->>Generator: Read sources
+  Generator->>Repo: Write deepwiki pages
+```
+
 ## State and Storage
 - Output files only; no database.
 

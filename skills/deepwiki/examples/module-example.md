@@ -9,6 +9,13 @@
 ## Public Interfaces
 - `generateIndex()`, `generatePages()`.
 
+## Diagrams
+```mermaid
+flowchart TB
+  CLI[CLI] --> Generator
+  Generator --> Pages[Pages]
+```
+
 ## Configuration
 - `deepwiki.config.json`.
 

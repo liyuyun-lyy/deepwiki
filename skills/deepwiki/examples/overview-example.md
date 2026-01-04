@@ -18,6 +18,9 @@
 ## How to Navigate
 - Start with `deepwiki/INDEX.md`, then follow module links.
 
+## Missing Image Reporting
+- Missing image: `docs/architecture.md` → `assets/mermaid3.jpg` (blocked: path escapes repo root)
+
 ## Source References
 - README.md
 - src/cli/main.ts
