@@ -8,17 +8,6 @@ Deepwiki skill and specification kit for generating repository documentation via
 - `specs/`: Feature specifications, plans, tasks, and checklists.
 - `mermaid1.jpg`, `mermaid2.jpg`: Sample local images used in spec examples.
 
-## How to use (Codex CLI)
-
-Copy `skills/deepwiki` into your `~/.codex/skills/` directory, then use
-`$deepwiki` to generate or update deepwiki content in a target repo. The model
-detects whether this is the first run or an incremental update and proceeds
-accordingly.
-
-The skill writes all output under `deepwiki/` in the target repository.
-
-The INDEX is generated dynamically based on repository structure and content.
-
 ## How to use (Claude Code)
 
 This repo ships a Claude Code plugin manifest that points to the deepwiki skill.
@@ -30,6 +19,17 @@ This repo ships a Claude Code plugin manifest that points to the deepwiki skill.
 ## Supported clients
 
 This repository supports both Codex CLI skills and Claude Code plugins.
+
+## How to use (Codex CLI)
+
+Copy `skills/deepwiki` into your `~/.codex/skills/` directory, then use
+`$deepwiki` to generate or update deepwiki content in a target repo. The model
+detects whether this is the first run or an incremental update and proceeds
+accordingly.
+
+The skill writes all output under `deepwiki/` in the target repository.
+
+The INDEX is generated dynamically based on repository structure and content.
 
 ## Image and Mermaid support
 
