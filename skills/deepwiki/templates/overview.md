@@ -14,6 +14,9 @@
 ## Key Artifacts
 - [Important config files, artifacts, or schemas]
 
+## Key Workflows
+- [Common commands or flows]
+
 ## Example Snippets
 - [Short example: command, config, or output]
 
@@ -25,6 +28,9 @@
 - [How modules are organized]
 - [How to find key flows]
 - [How the dynamic INDEX groups sections for this repo]
+
+## Common Pitfalls
+- [Known gotchas or constraints]
 
 ## Source References
 - [path/to/source]

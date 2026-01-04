@@ -18,6 +18,9 @@
 ## Example Snippets
 - [Command, config, or output excerpt]
 
+## Edge Cases
+- [Limits or unusual behavior]
+
 ## Tests
 - [Relevant test paths]
 

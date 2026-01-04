@@ -27,5 +27,8 @@
 ## Example Snippets
 - [Command, payload, or artifact example]
 
+## Failure Modes
+- [What can go wrong and how it's handled]
+
 ## Source References
 - [path/to/source]

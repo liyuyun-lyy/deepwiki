@@ -22,11 +22,17 @@
 ## Key Parameters
 - [Tables for critical config, env vars, or runtime params]
 
+## Error Handling and Reliability
+- [Retries, timeouts, failure modes]
+
 ## Example Snippets
 - [Short excerpt from config or entry file]
 
 ## Runtime and Deployment
 - [Processes, containers, or runtime topology]
+
+## Scaling Notes
+- [Throughput, concurrency, or performance considerations]
 
 ## Source References
 - [path/to/source]

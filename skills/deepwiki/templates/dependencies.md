@@ -16,6 +16,9 @@
 ## Example Snippets
 - [Lockfile, requirements, or config excerpt]
 
+## Compatibility Notes
+- [Platform constraints or known conflicts]
+
 ## Versioning Notes
 - [Constraints or pinning rules]
 

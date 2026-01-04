@@ -131,13 +131,34 @@ section listing the relevant paths.
 
 Aim for richer, more detailed pages by default. Concretely:
 
-- Each page should include at least 3 substantive bullets across core sections.
-- Prefer tables for parameters, inputs/outputs, and configuration when applicable.
-- Include 1–2 concrete examples or file snippets per page when sources exist.
+- Each page should include at least 6 section headers (H2) and avoid collapsing
+  multiple topics into one section.
+- Each page should include at least 8 substantive bullets across core sections.
+- Prefer tables for parameters, inputs/outputs, and configuration when applicable,
+  and include at least 2 tables per page when sources exist.
+- Include at least 2 concrete examples or file snippets per page when sources exist.
+- Source References should list at least 8 relevant paths when available.
 - Expand modules into smaller pages when a module is too large (e.g., split by
   subdirectories like `cases/` and `util/`).
 - Add 2–3 extra guide pages when the repo has enough material (for example:
   `case-format.md`, `evaluation-schema.md`, `operations.md`).
+ - Add additional guide pages when the repo is large enough (for example:
+   `configuration.md`, `testing.md`, `troubleshooting.md`, `security.md`,
+   `telemetry.md`, `workflow.md`).
+
+## Example/snippet quality rules
+
+Snippets must be information-dense. Avoid trivial entrypoints or thin wrappers.
+Prefer snippets that expose:
+
+- Real parameters and defaults
+- Conditional branches or feature flags
+- Data structures or schema fields
+- Error handling and validation
+- I/O paths and artifact names
+
+If only trivial snippets are found, replace them with short extracted tables or
+structured summaries (e.g., parameters, env vars, or outputs) instead.
 
 ## Source citation rules
 
