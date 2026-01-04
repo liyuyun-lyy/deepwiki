@@ -22,12 +22,35 @@
 - Build & Development
   - Package Structure and Dependencies
   - Build Tasks and Scripts
+  - Native Modules and Cross-Platform Builds
+  - Release and Packaging Pipeline
+- Application Lifecycle
+  - Entry Points and Execution Modes
+  - Startup and Bootstrap Sequence
+  - Shutdown and Cleanup
 - Architecture
-  - Application Lifecycle and Bootstrap
+  - Multi-Process Architecture
   - Service Initialization and Dependency Injection
-- Modules
+  - Workbench Architecture
+  - Extension Host and Contribution System
+- UI System
+  - Layout System and Parts
   - Editor Service and Groups
+  - Editor Input and Pane System
   - Action and Menu System
+  - Context Keys and State Management
+  - View System and Contributions
+- Platform & Runtime
+  - Configuration and Settings
+  - Telemetry and Diagnostics
+  - Security and Trust Model
+- Modules
+  - Monaco Editor Core
+  - Text Model and View Model
+  - Search and Indexing
+  - File System Providers
+  - Language Services
+  - Debug Adapter Protocol
 
 ## Diagrams
 ```mermaid
