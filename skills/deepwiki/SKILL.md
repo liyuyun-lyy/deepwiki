@@ -127,6 +127,18 @@ section listing the relevant paths.
 - Glossary: key terms used across docs or code.
 - Diagrams: include at least one mermaid diagram when a Diagrams section exists.
 
+## Depth requirements (default)
+
+Aim for richer, more detailed pages by default. Concretely:
+
+- Each page should include at least 3 substantive bullets across core sections.
+- Prefer tables for parameters, inputs/outputs, and configuration when applicable.
+- Include 1–2 concrete examples or file snippets per page when sources exist.
+- Expand modules into smaller pages when a module is too large (e.g., split by
+  subdirectories like `cases/` and `util/`).
+- Add 2–3 extra guide pages when the repo has enough material (for example:
+  `case-format.md`, `evaluation-schema.md`, `operations.md`).
+
 ## Source citation rules
 
 - Use "Source References" at the end of each page.

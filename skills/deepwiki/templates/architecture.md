@@ -19,6 +19,12 @@
 ## Interfaces and Contracts
 - [APIs, RPCs, message contracts, schemas]
 
+## Key Parameters
+- [Tables for critical config, env vars, or runtime params]
+
+## Example Snippets
+- [Short excerpt from config or entry file]
+
 ## Runtime and Deployment
 - [Processes, containers, or runtime topology]
 

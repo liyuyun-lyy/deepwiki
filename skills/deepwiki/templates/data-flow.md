@@ -13,6 +13,9 @@
 - Inputs: [files, requests, messages]
 - Outputs: [artifacts, responses, side effects]
 
+## Data Structures
+- [Key payloads or artifacts, with fields]
+
 ## Diagrams
 - Include at least one mermaid diagram for key flows.
 - Use local images only when they are already present; otherwise prefer mermaid.
@@ -20,6 +23,9 @@
 
 ## State and Storage
 - [Datastores, caches, files]
+
+## Example Snippets
+- [Command, payload, or artifact example]
 
 ## Source References
 - [path/to/source]

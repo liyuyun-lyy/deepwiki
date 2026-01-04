@@ -9,8 +9,14 @@
 ## Public Interfaces
 - [Exports, CLI commands, or API endpoints]
 
+## Inputs and Outputs
+- [Parameters, artifacts, or files]
+
 ## Configuration
 - [Env vars or config files]
+
+## Example Snippets
+- [Command, config, or output excerpt]
 
 ## Tests
 - [Relevant test paths]

@@ -11,6 +11,12 @@
 - [Main binaries, services, or scripts]
 - [Primary CLI or API entry]
 
+## Key Artifacts
+- [Important config files, artifacts, or schemas]
+
+## Example Snippets
+- [Short example: command, config, or output]
+
 ## Where to Start
 - [Recommended first file or doc]
 - [Recommended first command]

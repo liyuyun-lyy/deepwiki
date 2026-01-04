@@ -4,11 +4,17 @@
 - [Languages and build tools]
 - [Core runtime libraries]
 
+## Dependency Details
+- [Tables for versions, constraints, or pinning]
+
 ## External Services
 - [Databases, queues, APIs]
 
 ## Development Tools
 - [Lint, test, and tooling dependencies]
+
+## Example Snippets
+- [Lockfile, requirements, or config excerpt]
 
 ## Versioning Notes
 - [Constraints or pinning rules]
