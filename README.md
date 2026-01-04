@@ -18,6 +18,13 @@ The skill writes all output under `deepwiki/` in the target repository.
 
 The INDEX is generated dynamically based on repository structure and content.
 
+## How to use (Claude Code)
+
+This repo ships a Claude Code plugin manifest that points to the deepwiki skill.
+
+- Add the plugin: `/plugin add .` (or `/plugin add liyuyun-lyy/deepwiki`).
+- Run the command: `/deepwiki`
+
 ## Image and Mermaid support
 
 - Local images are referenced with project-relative paths and copied into `deepwiki/assets/`.
